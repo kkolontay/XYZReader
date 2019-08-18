@@ -1,2 +1,0 @@
-# XYZReader
-UdacityTask
