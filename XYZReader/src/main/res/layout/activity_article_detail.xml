@@ -11,7 +11,8 @@
         android:id="@+id/up_container"
         android:background="@android:color/transparent"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize">
+        android:layout_height="?actionBarSize"
+        android:elevation="@dimen/fab_elevation">
 
         <ImageButton
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -20,6 +21,7 @@
             android:layout_height="?actionBarSize"
             android:background="?selectableItemBackgroundBorderless"
             android:contentDescription="@string/up"
-            android:src="@drawable/ic_arrow_back" />
+            android:src="@drawable/ic_arrow_back"
+            />
     </FrameLayout>
 </FrameLayout>
