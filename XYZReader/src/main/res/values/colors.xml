@@ -22,4 +22,10 @@
     <color name="theme_primary_dark">#04561A</color>
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_500">#547A5F</color>
+    <color name="indigo_700">#28382D</color>
+    <color name="pink_a200">#FF4081</color>
+    <color name="darkTextColor">#343434</color>
+    <color name="lightTextColor">#3F3F3F</color>
 </resources>

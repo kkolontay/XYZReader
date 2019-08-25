@@ -24,25 +24,27 @@
         <TextView
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
+            android:fontFamily="sans-serif-medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
             android:paddingRight="16dp"
-            android:paddingBottom="4dp"
-            android:textColor="@color/ltgray"
+            android:paddingBottom="8dp"
+            android:textColor="@color/darkTextColor"
             android:ellipsize="end"
             android:maxLines="4" />
 
         <TextView
             android:id="@+id/article_subtitle"
+            android:fontFamily="sans-serif"
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:textColor="@color/lightTextColor"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>
