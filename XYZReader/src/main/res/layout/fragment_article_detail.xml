@@ -116,6 +116,7 @@
         android:background="@drawable/add_fab_background"
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
+        android:translationZ="@dimen/button_elevation_translationZ"
         android:src="@drawable/ic_share"
         android:stateListAnimator="@animator/fab_state_list_anim" />
 
